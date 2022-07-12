@@ -1,0 +1,30 @@
+﻿@page
+@using System.Data.SqlClient;
+
+<!-- Review Delete HTML File -->
+@{
+    try
+    {
+        String ReviewID = Request.Query["ReviewID"];
+
+        string connectionString = "Data Source=LAPTOP-HABJI64G;Initial Catalog=CPMS;Integrated Security=True";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            String sql = "DELETE FROM Review WHERE ReviewID=@ReviewID";     // select review with corresponding ID
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.AddWithValue("ReviewID", ReviewID);
+                command.ExecuteNonQuery();
+            }
+        }
+    }
+
+    catch (Exception ex)
+    {
+        
+    }
+
+    Response.Redirect("/Review/Index");
+}

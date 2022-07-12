@@ -1,0 +1,134 @@
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\appsettings.json
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\SWE.staticwebassets.runtime.json
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\SWE.exe
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\SWE.deps.json
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\SWE.runtimeconfig.json
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\SWE.dll
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\SWE.pdb
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ryanz\source\repos\SWE Project\SWE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.csproj.AssemblyReference.cache
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.AssemblyInfoInputs.cache
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.AssemblyInfo.cs
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.csproj.CoreCompileInputs.cache
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.RazorAssemblyInfo.cache
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.RazorAssemblyInfo.cs
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\scopedcss\bundle\SWE.styles.css
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.csproj.CopyComplete
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.dll
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\refint\SWE.dll
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.pdb
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\SWE.genruntimeconfig.cache
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\ref\SWE.dll
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ryanz\source\repos\SWE Project\SWE\obj\Debug\net6.0\scopedcss\projectbundle\SWE.bundle.scp.css
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.dll
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\refint\SWE.dll
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.pdb
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\appsettings.json
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.staticwebassets.runtime.json
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.exe
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.deps.json
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.runtimeconfig.json
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.dll
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.pdb
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.csproj.AssemblyReference.cache
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.AssemblyInfoInputs.cache
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.AssemblyInfo.cs
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.csproj.CoreCompileInputs.cache
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.RazorAssemblyInfo.cache
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.RazorAssemblyInfo.cs
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\scopedcss\bundle\SWE.styles.css
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\scopedcss\projectbundle\SWE.bundle.scp.css
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.csproj.CopyComplete
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.genruntimeconfig.cache
+C:\Users\samir\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\ref\SWE.dll
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\appsettings.json
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.staticwebassets.runtime.json
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.exe
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.deps.json
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.runtimeconfig.json
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.dll
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.pdb
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.csproj.AssemblyReference.cache
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.AssemblyInfoInputs.cache
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.AssemblyInfo.cs
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.csproj.CoreCompileInputs.cache
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.RazorAssemblyInfo.cache
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.RazorAssemblyInfo.cs
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\scopedcss\bundle\SWE.styles.css
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\scopedcss\projectbundle\SWE.bundle.scp.css
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.csproj.CopyComplete
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.dll
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\refint\SWE.dll
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.pdb
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.genruntimeconfig.cache
+C:\Users\jerry\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\ref\SWE.dll
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\appsettings.json
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.staticwebassets.runtime.json
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.exe
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.deps.json
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.runtimeconfig.json
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.dll
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\SWE.pdb
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.csproj.AssemblyReference.cache
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.AssemblyInfoInputs.cache
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.AssemblyInfo.cs
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.csproj.CoreCompileInputs.cache
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.RazorAssemblyInfo.cache
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.RazorAssemblyInfo.cs
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\scopedcss\bundle\SWE.styles.css
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\scopedcss\projectbundle\SWE.bundle.scp.css
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.csproj.CopyComplete
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.dll
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\refint\SWE.dll
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.pdb
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\SWE.genruntimeconfig.cache
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\ref\SWE.dll
+C:\Users\ryanz\Source\Repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layoutadd.cshtml.rz.scp.css
+C:\Users\samir\source\repos\rzupansic\SWE-Project\SWE\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layoutadd.cshtml.rz.scp.css

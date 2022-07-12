@@ -1,0 +1,53 @@
+﻿@page
+@model SWE.Pages.Author.ProfileModel
+@{
+}
+
+<!-- Author Profile Page HTML File   -->
+
+<br>
+<h2>User Profile</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Author ID</th>
+            <th>First Name</th>
+            <th>Middle Initial</th>
+            <th>Last Name</th>
+            <th>Affiliation</th>
+            <th>Department</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip Code</th>
+            <th>Phone Number</th>
+            <th>Email Address</th>
+            <th>Password</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.ListAuthors)     
+        {
+            <tr>
+                <td>@item.AuthorID</td>
+                <th>@item.FirstName</th>
+                <td>@item.MiddleInitial</td>
+                <td>@item.LastName</td>
+                <td>@item.Affiliation</td>
+                <td>@item.Department</td>
+                <td>@item.Address</td>
+                <td>@item.City</td>
+                <td>@item.State</td>
+                <td>@item.ZipCode</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.EmailAddress</td>
+                <td>@item.Password</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Author/Edit?id=@item.AuthorID">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

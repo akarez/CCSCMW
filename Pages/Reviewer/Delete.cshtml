@@ -1,0 +1,29 @@
+﻿@page
+@using System.Data.SqlClient;
+
+@{
+    try
+    {
+        String ReviewerID = Request.Query["ReviewerID"];
+
+        string connectionString = "Data Source=LAPTOP-HABJI64G;Initial Catalog=CPMS;Integrated Security=True";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            String sql = "DELETE FROM Reviewer WHERE ReviewerID=@ReviewerID";     // select reviewer with corresponding ID
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.AddWithValue("ReviewerID", ReviewerID);
+                command.ExecuteNonQuery();
+            }
+        }
+    }
+
+    catch (Exception ex)
+    {
+        
+    }
+
+    Response.Redirect("/Reviewer/Index");
+}

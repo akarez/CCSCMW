@@ -1,0 +1,131 @@
+﻿@page
+@model SWE.Pages.Author.AddModel
+@{
+    Layout = "_Layoutadd";
+}
+
+<!-- Author Add Page HTML File -->
+
+<!-- Title -->
+<br>
+<h2>New Author</h2> 
+
+<!-- Error Message -->
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role='alert'>
+        <strong >@Model.errorMessage</strong>
+        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+    </div>
+}
+
+<!-- Table -->
+<form method="POST">
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">First Name</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="FirstName" value="@Model.authorInfo.FirstName">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Middle Initial</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="MiddleInitial" value="@Model.authorInfo.MiddleInitial">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Last Name</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="LastName" value="@Model.authorInfo.LastName">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Affiliation</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Affiliation" value="@Model.authorInfo.Affiliation">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Department</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Department" value="@Model.authorInfo.Department">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Address</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Address" value="@Model.authorInfo.Address">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">City</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="City" value="@Model.authorInfo.City">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">State</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="State" value="@Model.authorInfo.State">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Zip Code</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="ZipCode" value="@Model.authorInfo.ZipCode">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Phone Number</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="PhoneNumber" value="@Model.authorInfo.PhoneNumber">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Email Address</label>
+        <div class="col-sm-6">
+            <input type="email" class="form-control" name="EmailAddress" value="@Model.authorInfo.EmailAddress">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Password</label>
+        <div class="col-sm-6">
+            <input type="password" class="form-control" name="Password" value="@Model.authorInfo.Password">
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    @if (Model.successMessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class="col-sm-9">
+                <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                    <strong>@Model.successMessage</strong>
+                    <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- Submit and Cancel buttons -->
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" onclick="history.back()" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

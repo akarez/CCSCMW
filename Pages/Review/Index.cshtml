@@ -1,0 +1,75 @@
+﻿@page
+@model SWE.Pages.Review.IndexModel
+@{
+}
+
+<!-- Review Main Page HTML File -->
+
+<br>
+<h2>List of Reviews</h2>
+<a class='btn btn-primary btn-sm' href='/Review/Add'>Add</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Review ID</th>
+            <th>Paper ID</th>
+            <th>Reviewer ID</th>
+            <th>Appropriateness of Topic</th>
+            <th>Timeliness of Topic</th>
+            <th>Supportive Evidence</th>
+            <th>Technical Quality</th>
+            <th>Scope of Coverage</th>
+            <th>Citation of Previous Work</th>
+            <th>Originality</th>
+            <th>Content Comments</th>
+            <th>Organization of Paper</th>
+            <th>Clarity of Main Message</th>
+            <th>Mechanics</th>
+            <th>Written Document Comments</th>
+            <th>Suitability for Presentation</th>
+            <th>Potential Interest in Topic</th>
+            <th>Potential for Oral Presentation Comments</th>
+            <th>Overall Rating</th>
+            <th>Overall Rating Comments</th>
+            <th>Comfort Level Topic</th>
+            <th>Comfort Level Acceptability</th>
+            <th>Complete</th>
+        </tr>
+    </thead>
+    <!-- ERROR. TABLE IS NOT DISPLAYING -->
+    <tbody>
+        @foreach(var item in Model.ListReviews)     
+        {
+            <tr>
+                <td>@item.ReviewID</td>
+                <td>@item.PaperID.</td>
+                <td>@item.ReviewerID</td>
+                <td>@item.AppropriatenessOfTopic</td>
+                <td>@item.TimelinessOfTopic</td>
+                <td>@item.SupportiveEvidence</td>
+                <td>@item.TechnicalQuality</td>
+                <td>@item.ScopeOfCoverage</td>
+                <td>@item.CitationOfPreviousWork</td>
+                <td>@item.Originality</td>
+                <td>@item.ContentComments</td>
+                <td>@item.OrganizationOfPaper</td>
+                <td>@item.ClarityOfMainMessage</td>
+                <td>@item.Mechanics</td>
+                <td>@item.WrittenDocumentComments</td>
+                <td>@item.SuitabilityForPresentation</td>
+                <td>@item.PotentialInterestInTopic</td>
+                <td>@item.PotentialForOralPresentationComments</td>
+                <td>@item.OverallRating</td>
+                <td>@item.OverallRatingComments</td>
+                <td>@item.ComfortLevelTopic</td>
+                <td>@item.ComfortLevelAcceptability</td>
+                <td>@item.Complete</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Review/Edit?id=@item.ReviewID">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Review/Delete?id=@item.ReviewID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

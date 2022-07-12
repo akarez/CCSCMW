@@ -1,0 +1,58 @@
+﻿@page
+@model SWE.Pages.Author.IndexModel
+@{
+}
+
+<!-- Author Main Page HTML File   -->
+<body>
+<br>
+<h2>List of Authors</h2>
+<a class='btn btn-primary btn-sm' href='/Author/Add'>Add</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>AuthorID</th>
+            <th>First Name</th>
+            <th>Middle Initial</th>
+            <th>Last Name</th>
+            <th>Affiliation</th>
+            <th>Department</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip Code</th>
+            <th>Phone Number</th>
+            <th>Email Address</th>
+            <th>Password</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.ListAuthors)     
+        {
+            <tr>
+                <td>@item.AuthorID</td>
+                <th>@item.FirstName</th>
+                <td>@item.MiddleInitial</td>
+                <td>@item.LastName</td>
+                <td>@item.Affiliation</td>
+                <td>@item.Department</td>
+                <td>@item.Address</td>
+                <td>@item.City</td>
+                <td>@item.State</td>
+                <td>@item.ZipCode</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.EmailAddress</td>
+                <td>@item.Password</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Author/Edit?id=@item.AuthorID">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Author/Delete?id=@item.AuthorID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-  pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+ </body>

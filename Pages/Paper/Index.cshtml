@@ -1,0 +1,46 @@
+﻿@page
+@model SWE.Pages.Paper.IndexModel
+@{
+}
+
+<!-- Paper Main Page HTML File -->
+
+<br>
+<h2>List of Papers</h2>
+<a class='btn btn-primary btn-sm' href='/Paper/Add'>Add</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>PaperID</th>
+            <th>AuthorID</th>
+            <th>Active</th>
+            <th>File Name Original</th>
+            <th>File Name</th>
+            <th>Title</th>
+            <th>Certification</th>
+            <th>Notes</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <!-- ERROR. TABLE IS NOT DISPLAYING -->
+    <tbody>
+        @foreach(var item in Model.ListPapers)     
+        {
+            <tr>
+                <td>@item.PaperID</td>
+                <td>@item.AuthorID</td>
+                <td>@item.Active</td>
+                <td>@item.FilenameOriginal.</td>
+                <td>@item.Filename</td>
+                <td>@item.Title</td>
+                <td>@item.Certification</td>
+                <td>@item.NotesToReviewers</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Paper/Edit?id=@item.PaperID">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Paper/Delete?id=@item.PaperID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

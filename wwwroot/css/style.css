@@ -1,0 +1,65 @@
+﻿.content {
+    margin: 55px;
+    margin-top: 20%;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+login {
+    max-width: 1000px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.3rem;
+    border: black 1px solid;
+    padding: 40px;
+    background-color: #979797;
+    border-radius: 15%;
+    height: 500px;
+}
+
+logintitle {
+    top: 20%;
+    color: #eeeeee;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    left: 0%;
+}
+
+create {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 40px;
+    height: 500px;
+}
+
+h4 {
+    color: #eeeeee;
+}
+
+h3 {
+    color: #666666;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.myForm {
+    min-width: 90%;
+}
+
+.form-group {
+    margin: 10px;
+    width: 250px;
+}

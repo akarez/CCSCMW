@@ -1,0 +1,200 @@
+﻿@page
+@model SWE.Pages.Review.AddModel
+@{
+}
+
+<!-- Review Add Page HTML File -->
+
+<!-- Title -->
+<br>
+<h2>New Review</h2> 
+
+<!-- Error Message -->
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role='alert'>
+        <strong >@Model.errorMessage</strong>
+        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+    </div>
+}
+
+<!-- Table -->
+<form method="POST">
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Paper ID</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="PaperID" value="@Model.reviewInfo.PaperID">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Reviewer ID</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="ReviewerID" value="@Model.reviewInfo.ReviewerID">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Appropriateness of Topic</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="AppropriatenessOfTopic" value="@Model.reviewInfo.AppropriatenessOfTopic">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Timeliness of Topic</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="TimelinessOfTopic" value="@Model.reviewInfo.TimelinessOfTopic">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Supportive Evidence</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="SupportiveEvidence" value="@Model.reviewInfo.SupportiveEvidence">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Technical Quality</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="TechnicalQuality" value="@Model.reviewInfo.TechnicalQuality">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Scope of Coverage</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="ScopeOfCoverage" value="@Model.reviewInfo.ScopeOfCoverage">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Citation of PreviousWork</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="CitationOfPreviousWork" value="@Model.reviewInfo.CitationOfPreviousWork">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Originality</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Originality" value="@Model.reviewInfo.Originality">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Content Comments</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="ContentComments" value="@Model.reviewInfo.ContentComments">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Organization of Paper</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="OrganizationOfPaper" value="@Model.reviewInfo.OrganizationOfPaper">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Clarity of Main Message</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="ClarityOfMainMessage" value="@Model.reviewInfo.ClarityOfMainMessage">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Mechanics</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Mechanics" value="@Model.reviewInfo.Mechanics">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Written Document Comments</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="WrittenDocumentComments" value="@Model.reviewInfo.WrittenDocumentComments">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Suitability for Presentation</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="SuitabilityForPresentation" value="@Model.reviewInfo.SuitabilityForPresentation">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Potential Interest in Topic</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="PotentialInterestInTopic" value="@Model.reviewInfo.PotentialInterestInTopic">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Potential for Oral PresentationComments</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="PotentialForOralPresentationComments" value="@Model.reviewInfo.PotentialForOralPresentationComments">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Overall Rating</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="OverallRating" value="@Model.reviewInfo.OverallRating">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Overall Rating Comments</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="OverallRatingComments" value="@Model.reviewInfo.OverallRatingComments">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Comfort Level Topic</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="ComfortLevelTopic" value="@Model.reviewInfo.ComfortLevelTopic">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Comfort Level Acceptability</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="ComfortLevelAcceptability" value="@Model.reviewInfo.ComfortLevelAcceptability">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Complete</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Complete" value="@Model.reviewInfo.Complete">
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    @if (Model.successMessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class="col-sm-9">
+                <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                    <strong>@Model.successMessage</strong>
+                    <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- Submit and Cancel buttons -->
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" onclick="history.back()" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

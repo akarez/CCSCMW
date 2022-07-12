@@ -1,0 +1,104 @@
+﻿@page
+@model SWE.Pages.Paper.EditModel
+@{
+}
+
+<!-- Paper Edit Page HTML File -->
+
+<!-- Title -->
+<br>
+<h2>Edit Paper</h2> 
+
+<!-- Error Message -->
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role='alert'>
+        <strong >@Model.errorMessage</strong>
+        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+    </div>
+}
+
+<!-- Table -->
+<form method="POST">
+
+    <input type="hidden" name="PaperID" value="@Model.paperInfo.PaperID">
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Paper ID</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="PaperID" value="@Model.paperInfo.PaperID">
+        </div>
+    </div>  
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Author ID</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="AuthorID" value="@Model.paperInfo.AuthorID">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Active</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Active" value="@Model.paperInfo.Active">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">File Name Original</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="FilenameOriginal" value="@Model.paperInfo.FilenameOriginal">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Filename</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Filename" value="@Model.paperInfo.Filename">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Title</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Title" value="@Model.paperInfo.Title">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Certification</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Certification" value="@Model.paperInfo.Certification">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Notes</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="NotesToReviewers" value="@Model.paperInfo.NotesToReviewers">
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    @if (Model.successMessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class="col-sm-9">
+                <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                    <strong>@Model.successMessage</strong>
+                    <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- Submit and Cancel buttons -->
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" onclick="history.back()" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

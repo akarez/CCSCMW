@@ -1,0 +1,58 @@
+﻿@page
+@model SWE.Pages.Reviewer.IndexModel
+@{
+}
+
+<!-- Reviewer Main Page HTML File -->
+
+<br>
+<h2>List of Reviewers</h2>
+<a class='btn btn-primary btn-sm' href='/Reviewer/Add'>Add</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ReviewerID</th>
+            <th>Active</th>
+            <th>First Name</th>
+            <th>Middle Initial</th>
+            <th>Last Name</th>
+            <th>Affiliation</th>
+            <th>Department</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip Code</th>
+            <th>Phone Number</th>
+            <th>Email Address</th>
+            <th>Password</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <!-- ERROR. TABLE IS NOT DISPLAYING -->
+    <tbody>
+        @foreach(var item in Model.ListReviewers)     
+        {
+            <tr>
+                <td>@item.ReviewerID</td>
+                <td>@item.Active</td>
+                <td>@item.FirstName.</td>
+                <td>@item.MiddleInitial</td>
+                <td>@item.LastName</td>
+                <td>@item.Affiliation</td>
+                <td>@item.Department</td>
+                <td>@item.Address</td>
+                <td>@item.City</td>
+                <td>@item.State</td>
+                <td>@item.ZipCode</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.EmailAddress</td>
+                <td>@item.Password</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Reviewer/Edit?id=@item.ReviewerID">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Reviewer/Delete?id=@item.ReviewerID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
